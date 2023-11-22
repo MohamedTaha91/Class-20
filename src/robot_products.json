@@ -1,0 +1,62 @@
+[
+    {
+        "Name": "AquaBot 3000",
+        "Price": 459.99,
+        "Description": "Underwater cleaning robot, perfect for pools and aquariums.",
+        "ImageUrl": "https://gravatar.com/avatar/600d2958102e1021b146af9e990ec390?s=400&d=robohash&r=x"
+    },
+    {
+        "Name": "GardenBot Pro",
+        "Price": 299.5,
+        "Description": "Automated gardening assistant with plant recognition.",
+        "ImageUrl": "https://gravatar.com/avatar/2081050d4d3218d8834350d8bce2c9d9?s=400&d=robohash&r=x"
+    },
+    {
+        "Name": "RoboChef Mark II",
+        "Price": 899.99,
+        "Description": "Advanced kitchen robot capable of preparing gourmet meals.",
+        "ImageUrl": "https://gravatar.com/avatar/8d965d0787ab969198b87da7d4695fc2?s=400&d=robohash&r=x"
+    },
+    {
+        "Name": "PetPal",
+        "Price": 199.99,
+        "Description": "Interactive pet companion robot, great for dogs and cats.",
+        "ImageUrl": "https://gravatar.com/avatar/c207f371ebe9ab7f1765ffcfd4c3457f?s=400&d=robohash&r=x"
+    },
+    {
+        "Name": "CleanMaster 500",
+        "Price": 499.0,
+        "Description": "High-efficiency household cleaning robot with smart mapping.",
+        "ImageUrl": "https://gravatar.com/avatar/f8a152f210f88b4defd11bd87b49d811?s=400&d=robohash&r=x"
+    },
+    {
+        "Name": "EduBot Junior",
+        "Price": 259.9,
+        "Description": "Educational robot for kids, teaching programming and robotics.",
+        "ImageUrl": "https://gravatar.com/avatar/f23553d22668bf40b6bd3856ab3849db?s=400&d=robohash&r=x"
+    },
+    {
+        "Name": "FitnessBot 2023",
+        "Price": 699.99,
+        "Description": "Personal fitness assistant with workout and diet plans.",
+        "ImageUrl": "https://gravatar.com/avatar/865fdc42701e4d2f15599a6f1d34df6e?s=400&d=robohash&r=x"
+    },
+    {
+        "Name": "Security Sentinel",
+        "Price": 799.0,
+        "Description": "Home security robot with surveillance and alert system.",
+        "ImageUrl": "https://gravatar.com/avatar/85174abaeef18b8f541c2b30990df7cc?s=400&d=robohash&r=x"
+    },
+    {
+        "Name": "SkyCam Drone",
+        "Price": 350.0,
+        "Description": "Aerial photography drone with advanced stabilization.",
+        "ImageUrl": "https://gravatar.com/avatar/d29d6fdba437143889862022e450bd46?s=400&d=robohash&r=x"
+    },
+    {
+        "Name": "SmartMover 360",
+        "Price": 599.99,
+        "Description": "Automated logistics robot for warehouses and stores.",
+        "ImageUrl": "https://gravatar.com/avatar/c19a5c0c062c056fffdbf1336aa9c210?s=400&d=robohash&r=x"
+    }
+]
