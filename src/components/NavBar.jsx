@@ -5,9 +5,8 @@ import robotJson from '../robot_products.json'
 const NavBar = (props) => {
 
     const handleSearch = (searchValue) => {
-        console.log(props.robots);
-        const robotsUpdated = props.robots.filter((eachRobot) => {
-            return eachRobot.Name.includes(searchValue)
+        const robotsUpdated = robotJson.filter((eachRobot) => {
+            return eachRobot.Name.toLowerCase().includes(searchValue.toLowerCase())
         })
         if (searchValue === "") {
             props.setRobots(robotJson)
@@ -20,9 +19,9 @@ const NavBar = (props) => {
         <nav id="navbar-element">
             <h1>RoboZon.com</h1>
             <div>
-                <input onChange={(event) => handleSearch(event.target.value)} id="search-input" type="search" placeholder="Search robot" /><span>🔍</span>
+                <input onChange={(event) => handleSearch(event.target.value)} id="search-input" type="search" placeholder="Search robot" /><span id="magni-icon">🔍</span>
             </div>
-            <p>Products in the cart: <span>{props.cartNumber}</span> </p>
+            <div className="cart-container"><span id="cart-icon">🛒</span><span id="product-number">{props.cartNumber}</span> </div>
         </nav>
     )
 }

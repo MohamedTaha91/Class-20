@@ -1,9 +1,9 @@
-
 import { useState } from 'react';
 import './App.css';
 import ProductCard from './components/ProductCard';
 import robotList from './robot_products.json';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   const [robots, setRobots] = useState(robotList);
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <NavBar setRobots={setRobots} robots={robots} cartNumber={cartNumber}/>
+      <NavBar setRobots={setRobots} robots={robots} cartNumber={cartNumber} />
       <section className='robots-container'>
         {
           robots.map((eachRobot, index) => {
@@ -20,6 +20,7 @@ function App() {
         }
 
       </section>
+      <Footer />
     </>
   )
 }

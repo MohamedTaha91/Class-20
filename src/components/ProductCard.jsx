@@ -14,7 +14,7 @@ const ProductCard = (props) => {
         <article className='card'>
             <img src={props.details.ImageUrl} alt={props.details.Name} />
             <h3>{props.details.Name}</h3>
-            <p>{props.details.Description}</p>
+            <p className='description'>{props.details.Description}</p>
             <p className='price'>{props.details.Price} €</p>
             <p>Units in the cart: {roboUnits}</p>
             <button onClick={() => updateUnitsAndCart()}>Add to cart!</button>
