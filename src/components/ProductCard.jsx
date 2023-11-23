@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import './productCard.css';
+import {Link} from 'react-router-dom'
 
 const ProductCard = (props) => {
     const [roboUnits, setRoboUnits] = useState(0);
@@ -17,6 +18,7 @@ const ProductCard = (props) => {
             <p className='description'>{props.details.Description}</p>
             <p className='price'>{props.details.Price} €</p>
             <p>Units in the cart: {roboUnits}</p>
+            <Link to={`/products/${props.index}`}>Details</Link>
             <button onClick={() => updateUnitsAndCart()}>Add to cart!</button>
         </article>
     )
